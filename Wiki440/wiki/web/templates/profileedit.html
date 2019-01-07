@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Profile{% endblock title %}
+
+{% block content %}
+<form class="form form-group" method="POST">
+    <H4>Edit Profile Data Here</H4>
+    {{ form.hidden_tag() }}
+    <div class="form form-group">
+        {{ form.location(placeholder='Location') }}
+    </div>
+    <div class="form form-group">
+        {{ form.bio(placeholder='Bio') }}
+    </div>
+    <div class="form form-group">
+        {{ form.gender(placeholder='Gender') }}
+    </div>
+    <div class="form form-group">
+        {{ form.speciality(placeholder='Speciality') }}
+    </div>
+    <div class="form form-group">
+        {{ form.picture(placeholder='Picture') }}
+    </div>
+	<input type="submit" class="btn btn-primary" value="Submit">
+</form>
+{% endblock content %}

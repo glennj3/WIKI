@@ -1,0 +1,11 @@
+else if(command.equals("PUT")){
+                osw.write("Content-type:");
+                osw.flush();
+                String type = br.readLine();
+                osw.write("Content-Length:");
+                osw.flush();
+                Integer length =Integer.parseInt(br.readLine());
+                osw.write("\n");
+                osw.flush();
+                String input = br.readLine();
+}

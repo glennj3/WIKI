@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}{{ username }}{% endblock title %}
+
+{% block content %}
+
+<ul>
+    {% for key,value in userdata.items()%}
+        <li> {{ key }}: {{ value }}</li>
+    {% endfor %}
+</ul>
+
+       {% if currentBool == True %}
+            <a href="{{ url_for('wiki.profileedit',username=username) }}">Edit Profile</a>
+        {% endif %}
+{% endblock %}

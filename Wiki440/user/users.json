@@ -1,0 +1,86 @@
+{
+  "name": {
+    "active": true,
+    "authentication_method": "cleartext",
+    "password": "1234",
+    "authenticated": false,
+    "roles": [],
+    "ProfileData": {
+      "Location": "Insert",
+      "Bio": "Data",
+      "Gender": "Here",
+      "Speciality": "!",
+      "Picture": "Default.jpg"
+    }
+  },
+  "sam": {
+    "active": true,
+    "authentication_method": "cleartext",
+    "password": "1234",
+    "authenticated": true,
+    "roles": [],
+    "ProfileData": {
+      "Location": "",
+      "Bio": "",
+      "Gender": "",
+      "Speciality": "",
+      "Picture": "Default.jpg"
+    }
+  },
+  "TEST": {
+    "active": true,
+    "roles": [],
+    "authentication_method": "cleartext",
+    "authenticated": false,
+    "ProfileData": {
+      "Location": "",
+      "Bio": "",
+      "Gender": "",
+      "Speciality": "",
+      "Picture": "Default.jpg"
+    },
+    "password": "test"
+  },
+  "nathan": {
+    "active": true,
+    "roles": [],
+    "authentication_method": "cleartext",
+    "authenticated": false,
+    "ProfileData": {
+      "Location": "d",
+      "Bio": "f",
+      "Gender": "e",
+      "Speciality": "e",
+      "Picture": "Default.jpg"
+    },
+    "password": "nathan"
+  },
+  "justin": {
+    "active": true,
+    "roles": [],
+    "authentication_method": "cleartext",
+    "authenticated": false,
+    "ProfileData": {
+      "Location": "",
+      "Bio": "",
+      "Gender": "",
+      "Speciality": "",
+      "Picture": "Default.jpg"
+    },
+    "password": "justin"
+  },
+  "yess": {
+    "active": true,
+    "roles": [],
+    "authentication_method": "cleartext",
+    "authenticated": false,
+    "ProfileData": {
+      "Location": "",
+      "Bio": "",
+      "Gender": "",
+      "Speciality": "",
+      "Picture": "Default.jpg"
+    },
+    "password": "yess"
+  }
+}
